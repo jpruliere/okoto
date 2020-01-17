@@ -1,0 +1,268 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+body, input, button {
+	font-family: verdana;
+	background-color: #c5c5c5;
+}
+select {
+	border: none;
+	width: 195px;
+}
+option {
+	padding-left: 3px;
+}
+h3 {
+	font-weight: normal;
+	text-align: center;
+	border-bottom: 1px solid black;
+	
+}
+h5 {
+	margin: 4px 0 0 0;
+	font-size: .8em;
+	font-variant: small-caps;
+}
+p {
+	margin: 0;
+	font-size: .7em;
+	border-left: 1px;
+	text-align: justify;
+}
+#okoto_top h3 {
+	border-bottom: none;
+	border-right: 1px solid black;
+	width: 40px;
+	height: 95px;
+	vertical-align: middle;
+	margin: 0px;
+	margin-left: 13px;
+	padding-top: 65px;
+	padding-right: 6px;
+}
+.okotton {
+	border: none;
+	background-color: white;
+	margin: 0px;
+}
+.okomponent {
+	position: fixed;
+	background-color: white;
+	border: 1px solid #c5c5c5;
+}
+#okoto_svg {
+	top: 8px;
+	left: 8px;
+	background-color: white;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	border: none;
+	overflow: hidden;
+}
+#okoto_bottom {
+	bottom: 0;
+	width: 480px;
+	height: 80px;
+}
+#okoto_top {
+	top: 0;
+	width: 375px;
+	height: 160px;
+}
+#okoto_name {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	padding: 10px;
+	padding-right: 3px;
+	border-right: 1px solid black;
+	width: 128px;
+	height: 60px;
+}
+#okoto_form {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	padding: 10px;
+}
+#okoto_title {
+	border: none;
+	font-size: 1em;
+	background-color: #ececec;
+}
+#okoto_save {
+	border: none;
+	font-size: 1em;
+	font-weight: bold;
+	border-left: 1px solid black;
+}
+#okoto_left_corner {
+	top: 0px;
+	left: 0px;
+	width: 40px;
+	height: 40px;
+	padding: 10px;
+}
+#okoto_help {
+	border: none;
+	font-size: 2em;
+	font-weight: bold;
+	background-color: white;
+}
+#okoto_right_corner {
+	top: 0px;
+	right: 0px;
+	padding: 10px;
+	width: 83px;
+	height: 83px;
+}
+#okoto_up {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+#okoto_prev {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+#okoto_next {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+#okoto_left {
+	left: 0px;
+	width: 160px;
+	height: 350px;
+}
+#okoto_right {
+	right: 0px;
+	width: 160px;
+	height: 350px;
+}
+#okoto_overlay {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	opacity: .5;
+}
+#okoto_center {
+	padding: 5px;
+	width: 500px;
+	height: 250px;
+}
+#okoto_tip_next {
+	position: absolute;
+	right: 5px;
+}
+#okoto_tip_close {
+	border: none;
+	font-size: 1em;
+	font-weight: bold;
+	border-top: 1px solid black;
+	width: 490px;
+	position: absolute;
+	bottom: 5px;
+	left: 10px;
+}
+#okoto_helper {
+	display: none;
+}
+#okoto_menu {
+	width: 500px;
+	height: 80px;
+	border: none;
+}
+#okoto_menu_body {
+	background-color: white;
+}
+#okoto_menu_title {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	padding: 10px;
+	padding-right: 5px;
+	border-right: 1px solid black;
+	font-size: 3em;
+}
+#okoto_menu_links {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	padding: 4px;
+	width: 296px;
+	font-size: 1.7em;
+}
+#okoto_link_red {
+	color: #600000;
+}
+
+#okoto_link_green {
+	color: #006000;
+}
+
+#okoto_link_blue {
+	color: #000060;
+}
+.okometer {
+	padding: 0px;
+	height: 256px;
+	border: 1px solid #c5c5c5;
+	width: 20px;
+	position: absolute;
+}
+.okocasque {
+	position: absolute;
+	top: 310px;
+}
+.vert {
+	left: 332px;
+}
+.okolor_level {
+	height: 1px;
+	border: none;
+	display: block;
+	width: 20px;
+	padding: 0px;
+}
+
+.okolor_level:hover {
+	border-top: 1px solid grey;
+}
+
+.okurrent {
+	border-top: 1px solid black;
+}
+
+.horizontal .okolor_level {
+	height: 20px;
+	width: 1px;
+	display: inline;
+	padding-top: 12px;
+}
+
+.horizontal .okolor_level:hover {
+	border-left: 1px solid grey;
+}
+
+.horizontal .okurrent {
+	border-left: 1px solid black;
+}
+
+.vertical {
+	display: inline;
+	top: 50px;
+	
+}
+.horizontal {
+	display: block;
+	width: 256px;
+	height: 20px;
+	left: 70px;
+}

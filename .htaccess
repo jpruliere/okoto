@@ -1,0 +1,9 @@
+AddType image/svg+xml .svg
+# AddType application/x-httpd-php .svg
+# On suit les liens symboliques
+Options +FollowSymlinks
+# Activation du mod rewrite d'Apache
+RewriteEngine On
+# Reecriture pour l'export SVG
+# RewriteRule ^hey.test$ index.php [L]
+RewriteRule ^export/([a-zA-Z0-9()\ -]+)@([a-zA-Z0-9()\ -]+).svg$ ./export/export.php?okoto=$1@$2 [L]
